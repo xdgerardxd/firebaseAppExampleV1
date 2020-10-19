@@ -1,0 +1,18 @@
+NavBar documentacion:
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+navbar-light: Cambia color de letras a oscuro
+navbar-dark: Letras blancas
+bg-light: Color background blanco
+bg-dark: Color background negro
+border-bottom: Borde inferior 
+
+<a class="nav-link" href="#" data-toggle="modal" data-target="#signinModal">Signin</a>
+
+data-toggle: Refiere a que esta asociado a un modal
+data-target: Busca la modal con el id #signinModal
+
+
+Metodos:
+auth.onAuthStateChanged() es un metodo que se dispara cuando un usuario se logueo o se sale de la sesion luego de declarar el metodo auth
+

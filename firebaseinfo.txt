@@ -1,0 +1,19 @@
+1) Ubicar raiz de archivos y ejecutar los siguientes comandos:
+* npm install -g firebase-tools
+* firebase login
+* firebase init
+
+2) Colocar los archivos publicos en la carpeta creada y ejecutar:
+a) firebase deploy --only hosting:
+----------------------------------------------------
+Autenticación con Firebase.
+
+1) Creacion de vistas y modales o componentes.
+
+2) Configuracion de CDN o SDK de Firebase:
+a) Ir a la consola o pagina web de Firebase: https://console.firebase.google.com/u/0/?hl=es-419
+b) Escoger proyecto o crear uno 
+c) Clic en el icono configuracion (Tuerca) en la barra lateral superior izquierda, Descripcion general del proyecto 
+d) Configuracion del proyecto -> Tus apps -> Seleccionar el tipo de aplicacion (Web en este caso)
+e) Copiar el CDN (Firebase SDK Snipet)
+
